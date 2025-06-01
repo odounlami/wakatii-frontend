@@ -12,6 +12,7 @@ const Connexion = () => {
     e.preventDefault();
     console.log({ email, password });
     // Gérer la connexion (API, validation, etc.)
+      navigate('/artisan');
   };
 
   return (

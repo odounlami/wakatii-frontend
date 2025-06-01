@@ -6,6 +6,7 @@ import Testimonials from '../assets/components/Testimonials';
 import Newsletter from '../assets/components/NewLetters';
 import CallToAction from '../assets/components/CalltoAction';
 import Header from '../assets/components/Header';
+import Footer from '../assets/components/Footer';
 
 const Accueil: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const Accueil: React.FC = () => {
       <Testimonials />
       <Newsletter />
       <CallToAction />
+      <Footer />
     </>
   );
 };
